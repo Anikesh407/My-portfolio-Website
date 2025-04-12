@@ -1,7 +1,7 @@
 import React from "react";
 import SingleExperience from "./SingleExperience";
 import { FaArrowRight } from "react-icons/fa";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeIn } from "../../../src/framermotion/variants";
 
 const experiences = [
