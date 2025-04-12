@@ -8,7 +8,6 @@ const experiences = [
   {
     job: "Front-End Developer",
     project: "Personal Projects",
-
     date: "2023-Present",
     responsiblities: [
       "Created responsive, high-performance web interfaces using React ",
@@ -19,7 +18,6 @@ const experiences = [
   {
     job: "Front-End Developer",
     project: "Freelance & Self-Initiated Projects",
-
     date: "2023-Present",
     responsiblities: [
       "Developed projects from small business websites to complex frontend systems",
@@ -30,7 +28,6 @@ const experiences = [
   {
     job: "Web Developer (Learner & Builder)",
     project: "Self-Learning & Skill Development",
-
     date: "2024-Present",
     responsiblities: [
       "Regularly work on new projects to strengthen development skills",
@@ -43,27 +40,25 @@ const experiences = [
 const AllExperience = () => {
   return (
     <div className="flex md:flex-row sm:flex-col items-center justify-between">
-      {experiences.map((experience, index) => {
-        return (
-          <>
-            <SingleExperience key={index} experience={experience} />
-            {index < 2 ? (
-              <motion.div
-                variants={fadeIn("right", 0.2)}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: false, amount: 0 }}
-              >
-                <FaArrowRight className="text-6xl font-bold text-orange sm:hidden lg:block" />
-              </motion.div>
-            ) : (
-              ""
-            )}
-          </>
-        );
-      })}
+      {experiences.map((experience, index) => (
+        <React.Fragment key={`experience-${index}`}>
+          <SingleExperience experience={experience} />
+          {index < experiences.length - 1 && (
+            <motion.div
+              key={`arrow-${index}`}
+              variants={fadeIn("right", 0.2)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: true, amount: 0.1 }}
+              className="sm:hidden lg:block"
+            >
+              <FaArrowRight className="text-6xl font-bold text-orange" />
+            </motion.div>
+          )}
+        </React.Fragment>
+      ))}
     </div>
   );
 };
 
-export default AllExperience;
+export default React.memo(AllExperience);

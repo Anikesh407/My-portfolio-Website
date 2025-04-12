@@ -8,7 +8,7 @@ function SingleExperience({ experience }) {
       variants={fadeIn("right", 0.3)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0 }}
+      viewport={{ once: true, amount: 0.1 }}
       className="md:h-[350px] md:w-[240px] sm:h-auto sm:w-full border border-orange border-dashed rounded-2xl mt-12 p-4"
     >
       <p className="font bold text-cyan">{experience.job}</p>
@@ -23,4 +23,4 @@ function SingleExperience({ experience }) {
   );
 }
 
-export default SingleExperience;
+export default React.memo(SingleExperience);
