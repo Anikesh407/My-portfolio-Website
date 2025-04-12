@@ -1,8 +1,8 @@
 import React from "react";
 
 import NavbarMain from "./components/navbar/NavbarMain";
-import HeroMain from "./components/HeroSection/HeroMain";
-import HeroGradient from "./components/HeroSection/HeroGradient";
+import HeroMain from "./components/heroSection/HeroMain";
+import HeroGradient from "./components/heroSection/HeroGradient";
 import SubheroSection from "./components/SubheroSection";
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
 
