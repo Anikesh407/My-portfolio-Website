@@ -1,7 +1,7 @@
 import React from "react";
 import SingleExperience from "./SingleExperience";
 import { FaArrowRight } from "react-icons/fa";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fadeIn } from "../../../src/framermotion/variants";
 
 const experiences = [
@@ -40,25 +40,29 @@ const experiences = [
 const AllExperience = () => {
   return (
     <div className="flex md:flex-row sm:flex-col items-center justify-between">
-      {experiences.map((experience, index) => (
-        <React.Fragment key={`experience-${index}`}>
-          <SingleExperience experience={experience} />
-          {index < experiences.length - 1 && (
-            <motion.div
-              key={`arrow-${index}`}
-              variants={fadeIn("right", 0.2)}
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: true, amount: 0.1 }}
-              className="sm:hidden lg:block"
-            >
-              <FaArrowRight className="text-6xl font-bold text-orange" />
-            </motion.div>
-          )}
-        </React.Fragment>
-      ))}
+      {experiences.map((experience, index) => {
+        return (
+          <React.Fragment key={`experience-${index}`}>
+            
+            <SingleExperience experience={experience} />
+            {index < 2 ? (
+              <motion.div
+                key={`arrow-${index}`}
+                variants={fadeIn("right", 0.2)}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0 }}
+              >
+                <FaArrowRight className="text-6xl font-bold text-orange sm:hidden lg:block" />
+              </motion.div>
+            ) : (
+              ""
+            )}
+          </React.Fragment>
+        );
+      })}
     </div>
   );
 };
 
-export default React.memo(AllExperience);
+export default AllExperience;
