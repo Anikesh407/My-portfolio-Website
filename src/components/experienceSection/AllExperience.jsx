@@ -1,7 +1,7 @@
 import React from "react";
 import SingleExperience from "./SingleExperience";
 import { FaArrowRight } from "react-icons/fa";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeIn } from "../../../src/framermotion/variants";
 
 const experiences = [
@@ -43,7 +43,6 @@ const AllExperience = () => {
       {experiences.map((experience, index) => {
         return (
           <React.Fragment key={`experience-${index}`}>
-            
             <SingleExperience experience={experience} />
             {index < 2 ? (
               <motion.div

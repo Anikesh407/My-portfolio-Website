@@ -8,7 +8,7 @@ import { SiRedux } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import SingleSkills from "./SingleSkills";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeIn } from "../../../src/framermotion/variants";
 
 const skills = [

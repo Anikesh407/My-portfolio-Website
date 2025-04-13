@@ -1,6 +1,6 @@
 import React from "react";
 import ExperienceInfo from "./ExperienceInfo";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeIn } from "../../../src/framermotion/variants";
 
 function ExperienceTopLeft() {

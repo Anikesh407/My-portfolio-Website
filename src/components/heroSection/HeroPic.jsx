@@ -1,6 +1,6 @@
 import React from "react";
 import { PiHexagonThin } from "react-icons/pi";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeIn } from "../../../src/framermotion/variants";
 
 function HeroPic() {

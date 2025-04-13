@@ -1,8 +1,9 @@
 import React from "react";
 import AboutMetext from "./AboutMetext";
 import AboutMeImage from "./AboutMeImage";
-import { motion } from "motion/react";
+// import { motion } from "framer-motion";
 import { fadeIn } from "../../../src/framermotion/variants";
+import { motion } from "framer-motion";
 
 function AboutMeMain() {
   return (

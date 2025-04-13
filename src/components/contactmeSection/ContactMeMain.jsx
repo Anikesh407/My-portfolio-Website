@@ -1,8 +1,9 @@
 import React from "react";
 import ContactMeLeft from "./ContactMeLeft";
 import ContactMeRight from "./ContactMeRight";
-import { motion } from "motion/react";
+// import { motion } from "framer-motion";
 import { fadeIn } from "../../../src/framermotion/variants";
+import { motion } from "framer-motion";
 
 function ContactMeMain() {
   return (

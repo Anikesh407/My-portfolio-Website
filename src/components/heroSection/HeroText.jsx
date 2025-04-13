@@ -1,6 +1,6 @@
 import React from "react";
 import AutoTypingText from "./AutoTypingText";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { fadeIn } from "../../../src/framermotion/variants";
 
 function HeroText() {
