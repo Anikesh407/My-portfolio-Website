@@ -19,7 +19,7 @@ function NavbarLinks({ menuOpen, setMenuOpen }) {
             smooth={true}
             spy={true}
             duration={500}
-            offset={-130}
+            offset={-140}
             onClick={() => {
               setMenuOpen(false);
             }}
