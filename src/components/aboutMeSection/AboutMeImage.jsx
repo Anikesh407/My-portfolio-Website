@@ -5,7 +5,7 @@ function AboutMeImage() {
     <div className="h-[500px] md:w-[300px] sm:w-[270px]   relative">
       <div className="h-[500px] w-[300px] rounded-[100px] absolute overflow-hidden ">
         <img
-          src="../../../public/about-me.png"
+          src="https://res.cloudinary.com/dieds7her/image/upload/v1744526067/about-me_qongyp.png"
           alt="About me"
           className="h-full w-auto object-cover "
         />

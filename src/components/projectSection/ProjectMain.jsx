@@ -9,28 +9,32 @@ const projects = [
     name: "Myntra Clone",
     year: "Mar2023",
     align: "right",
-    image: "../../../public/myntraimg.png",
+    image:
+      "https://res.cloudinary.com/dieds7her/image/upload/v1744526069/myntraimg_b3ydh5.png",
     link: "https://github.com/Anikesh407/Myntra-clone02",
   },
   {
     name: "Testimonials",
     year: "Sep2024",
     align: "left",
-    image: "../../../public/testimonial.jpeg",
+    image:
+      "https://res.cloudinary.com/dieds7her/image/upload/v1744526061/testimonial_ohxxuf.jpg",
     link: "https://github.com/Anikesh407/Testinomial",
   },
   {
     name: "Ecommerce Website",
     year: "Dec2024",
     align: "right",
-    image: "../../../public/website-img-3.jpg",
+    image:
+      "https://res.cloudinary.com/dieds7her/image/upload/v1744526485/website-img-3_nefg6v.jpg",
     link: "#",
   },
   {
     name: "Vidyanza",
     year: "Jan2025",
     align: "left",
-    image: "../../../public/vidyanza.png",
+    image:
+      "https://res.cloudinary.com/dieds7her/image/upload/v1744526065/vidyanza_dkvhsn.png",
     link: "https://github.com/Anikesh407/Project-vid",
   },
 ];

@@ -13,7 +13,7 @@ function HeroPic() {
       className="h-full flex items-center justify-center"
     >
       <img
-        src="../../../../public/mypic.png"
+        src="https://res.cloudinary.com/dieds7her/image/upload/v1744526058/mypic_btum8b.png"
         alt="loading"
         className="max-h-[450px] sm:min-h-[90%] w-auto "
       />

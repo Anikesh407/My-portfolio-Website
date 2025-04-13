@@ -10,7 +10,10 @@ function ExperienceTopMiddle() {
       whileInView="show"
       viewport={{ once: false, amount: 0 }}
     >
-      <img src="../../../public/experience-image.png" alt="Image" />
+      <img
+        src="https://res.cloudinary.com/dieds7her/image/upload/v1744526335/experience-image_m92p7n.png"
+        alt="Image"
+      />
     </motion.div>
   );
 }
