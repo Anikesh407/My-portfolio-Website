@@ -6,9 +6,17 @@ import { fadeIn } from "../../../src/framermotion/variants";
 
 const projects = [
   {
-    name: "Myntra Clone",
-    year: "Mar2023",
+    name: "Gemini Clone",
+    year: "Apr2025",
     align: "right",
+    image:
+      "https://res.cloudinary.com/dieds7her/image/upload/v1744712992/gm_tbdd7r.png",
+    link: "https://benevolent-salmiakki-7f9811.netlify.app/",
+  },
+  {
+    name: "Myntra Clone",
+    year: "Mar2024",
+    align: "left",
     image:
       "https://res.cloudinary.com/dieds7her/image/upload/v1744526069/myntraimg_b3ydh5.png",
     link: "https://github.com/Anikesh407/Myntra-clone02",
@@ -16,7 +24,7 @@ const projects = [
   {
     name: "Testimonials",
     year: "Sep2024",
-    align: "left",
+    align: "right",
     image:
       "https://res.cloudinary.com/dieds7her/image/upload/v1744526061/testimonial_ohxxuf.jpg",
     link: "https://github.com/Anikesh407/Testinomial",
@@ -24,7 +32,7 @@ const projects = [
   {
     name: "Ecommerce Website",
     year: "Dec2024",
-    align: "right",
+    align: "left",
     image:
       "https://res.cloudinary.com/dieds7her/image/upload/v1744526485/website-img-3_nefg6v.jpg",
     link: "#",
@@ -32,7 +40,7 @@ const projects = [
   {
     name: "Vidyanza",
     year: "Jan2025",
-    align: "left",
+    align: "right",
     image:
       "https://res.cloudinary.com/dieds7her/image/upload/v1744526065/vidyanza_dkvhsn.png",
     link: "https://github.com/Anikesh407/Project-vid",
