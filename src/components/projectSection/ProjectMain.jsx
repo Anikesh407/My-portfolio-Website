@@ -34,8 +34,8 @@ const projects = [
     year: "Dec2024",
     align: "left",
     image:
-      "https://res.cloudinary.com/dieds7her/image/upload/v1744526485/website-img-3_nefg6v.jpg",
-    link: "#",
+      "https://res.cloudinary.com/dieds7her/image/upload/v1746013444/ecom_ykqlgk.jpg",
+    link: "https://simple-ecommerce2.netlify.app/",
   },
   {
     name: "Vidyanza",
