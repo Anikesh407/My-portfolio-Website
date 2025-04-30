@@ -16,7 +16,7 @@ function ExperienceTopLeft() {
         Since 2023
       </p>
       <div className="flex justify-center items-center gap-4 ">
-        <ExperienceInfo number="2" text="Years" />
+        <ExperienceInfo number="1" text="Years" />
         <p className=" font-bold text-6xl text-lightBrown">-</p>
         <ExperienceInfo number="7" text="WebSites" />
       </div>
