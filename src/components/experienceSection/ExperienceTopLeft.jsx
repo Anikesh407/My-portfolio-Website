@@ -21,7 +21,7 @@ function ExperienceTopLeft() {
         <ExperienceInfo number="7" text="WebSites" />
       </div>
       <p className="text-center text-white ">
-        Over 2 years of experience building dynamic and user-friendly web
+        Over 1+ years of experience building dynamic and user-friendly web
         applications.
       </p>
       <ExperienceInfo number="$10k" text="Max Budget" />

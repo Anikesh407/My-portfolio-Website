@@ -6,23 +6,23 @@ import { fadeIn } from "../../../src/framermotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    project: "Personal Projects",
-    date: "2023-Present",
+    job: "SDE",
+    project: "Docmise Solutions Private Limited",
+    date: "4th May to 6th Sep 2025",
     responsiblities: [
-      "Created responsive, high-performance web interfaces using React ",
-      "Focused on clean UI, accessibility, and mobile-first design",
-      "Prioritized maintainable code and component reusability",
+      "Worked on responsive, high-performance web using MERN",
+      "Collaborated with the team to implement clean UI and maintainable code",
+      "Gained hands-on experience with real-world fullstack development",
     ],
   },
   {
-    job: "Front-End Developer",
-    project: "Freelance & Self-Initiated Projects",
-    date: "2023-Present",
+    job: "Full-Stack Developer",
+    project: "Hotel Booking Platform",
+    date: "2025-Present",
     responsiblities: [
-      "Developed projects from small business websites to complex frontend systems",
-      "Gained experience in state management, API integration",
-      "Followed best practices in UI/UX and frontend ",
+      "Built a complete full-stack web application using MERN stack",
+      "Integrated payment gateway (Stripe) and user authentication (Clerk)",
+      "Focused on scalability, clean code, and seamless user experience",
     ],
   },
   {
@@ -31,7 +31,7 @@ const experiences = [
     date: "2024-Present",
     responsiblities: [
       "Regularly work on new projects to strengthen development skills",
-      "Explore tools in the React",
+      "Explore tools in React and modern web development",
       "Actively practice DSA to improve logic and problem-solving",
     ],
   },

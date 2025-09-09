@@ -14,12 +14,12 @@ const projects = [
     link: "https://benevolent-salmiakki-7f9811.netlify.app/",
   },
   {
-    name: "Myntra Clone",
-    year: "Mar2024",
+    name: "Stay Yatra",
+    year: "Sep2025",
     align: "left",
     image:
-      "https://res.cloudinary.com/dieds7her/image/upload/v1744526069/myntraimg_b3ydh5.png",
-    link: "https://github.com/Anikesh407/Myntra-clone02",
+      "https://res.cloudinary.com/dieds7her/image/upload/v1757438991/1_hfqugn.png",
+    link: "https://hotel-booking-frontend-lake.vercel.app/",
   },
   {
     name: "Testimonials",
