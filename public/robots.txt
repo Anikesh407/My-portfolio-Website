@@ -1,0 +1,11 @@
+# robots.txt for Anikesh Kumar portfolio (single-page app)
+
+User-agent: *
+Allow: /
+
+# If you have API endpoints or admin pages you DO NOT want crawled, disallow them:
+# Disallow: /api/
+# Disallow: /admin/
+
+# Link to sitemap
+Sitemap: https://my-portfolio-website-git-main-anikesh-kumars-projects.vercel.app/sitemap.xml
