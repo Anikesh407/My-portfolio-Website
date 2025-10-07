@@ -8,4 +8,4 @@ Allow: /
 # Disallow: /admin/
 
 # Link to sitemap
-Sitemap: https://my-portfolio-website-git-main-anikesh-kumars-projects.vercel.app/sitemap.xml
+Sitemap: https://my-portfolio-website-one-orcin.vercel.app/sitemap.xml
