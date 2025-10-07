@@ -2,7 +2,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Single-page app - only the canonical homepage -->
   <url>
-    <loc>https://my-portfolio-website-git-main-anikesh-kumars-projects.vercel.app/</loc>
+    <loc>https://my-portfolio-website-one-orcin.vercel.app</loc>
     <lastmod>2025-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
