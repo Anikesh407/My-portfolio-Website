@@ -35,7 +35,7 @@ function HeroText() {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4 text-white"
       >
-        Passionate Web Developer and problem solver.
+       Building Efficient, Scalable, and Innovative Software Solutions.
       </motion.p>
     </div>
   );

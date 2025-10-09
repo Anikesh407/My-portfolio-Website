@@ -29,7 +29,7 @@ function FooterMain() {
         </ul>
       </div>
       <p className="max-w-[1200px] mx-auto text-right mt-2 mb-2 text-sm text-lightBrown">
-        © 2025 Anikesh | Built with ❤️ and code.{" "}
+        © 2025 Anikesh Kumar | Built with ❤️ and code.{" "}
       </p>
     </div>
   );

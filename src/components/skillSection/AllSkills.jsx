@@ -10,6 +10,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import SingleSkills from "./SingleSkills";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../src/framermotion/variants";
+import { FaNode } from "react-icons/fa";
+import { RiPsychotherapyFill } from "react-icons/ri";
 
 const skills = [
   {
@@ -45,6 +47,14 @@ const skills = [
     skill: "Tailwind.Css",
     icon: RiTailwindCssFill,
   },
+  {
+      skill: "Node.js",
+      icon: FaNode,
+    },
+    {
+      skill: "Others",
+      icon: RiPsychotherapyFill,
+    },
 ];
 
 function AllSkills() {
